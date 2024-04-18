@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className="bg-custom-dark text-white py-4 text-lg">
             <div className='header mx-auto flex' style={{ width: '98%' }}>
                 <div className='empty-space' style={{width: '30%'}}></div>
-                <div className="container mx-auto flex justify-end items-center px-6" style={{ width: '30%' }}>
+                <div className="container mx-auto flex justify-center items-center px-6" style={{ width: '45%' }}>
                     {/* Première partie de la navbar */}
                     <div className="flex space-x-4">
                         <Link href="/" passHref className="text-lg font-semibold">Accueil</Link>

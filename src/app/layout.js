@@ -12,9 +12,11 @@ export default function RootLayout({ children }) {
       <main className=' relative'>
       <div className="parallax">
             <div className="bg-custom-dark bg-opacity-50 reative text-white text-lg  flex flex-col justify-between" style={{overflowX: 'hidden'}}>
+            <div className='mobile-containter mt-40 md:mt-0'>
           <PageTransitionTemplate >
                 {children}
           </PageTransitionTemplate>
+          </div>
           </div>
         </div> 
         </main>
