@@ -48,14 +48,14 @@ const SidebarNavigationItems = ({ isOpen }) => (
         { href: "/about", label: "À Propos", Icon: UserIcon }
       ].map(({ href, label, Icon }) => (
         <motion.li key={href} variants={itemVariants}>
-          <Link href={href} className="flex justify-center font-semi-bold hover:text-gray-500 mb-3">
+          <Link href={href} className="flex justify-center font-semi-bold hover:text-gray-500 mb-8">
             <Icon style={{ marginRight: '10px', width: '15%' }} />
-            <span style={{ width: '45%' }}>{label}</span>
+            <span style={{ width: '45%' }} className='font-semibold'>{label}</span>
           </Link>
         </motion.li>
       ))}
       <motion.div variants={itemVariants} className='flex justify-center'>
-        <Link href="/reservation" passHref className="z-50">
+        <Link href="/reservation" passHref >
           <CustomButton>Prenez Rendez-vous</CustomButton>
           
         </Link>

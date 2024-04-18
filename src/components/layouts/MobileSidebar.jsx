@@ -32,7 +32,8 @@ const MobileSidebar = () => {
       initial="closed"
       animate={isOpen ? "open" : "closed"}
       variants={sidebarVariants}
-      className="fixed top-0 left-0 bottom-0 w-64 bg-black text-white z-50 overflow-hidden"
+      className="fixed top-0 left-0 bottom-0 w-64 bg-black text-white z-50 overflow-hidden items-center"
+      style={{height: '110vh'}}
       ref={containerRef}
     >
       <HamburgerToggle toggle={() => toggleOpen()} />
