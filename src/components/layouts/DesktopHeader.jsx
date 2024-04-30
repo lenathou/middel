@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Barberlogo from '../../img/barberlogo.svg';
+import Barberlogo from '../../img/goldenlogo.svg';
 import CustomButton from '../specific/CustomButton';
 
 export default function Navbar() {

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';  // Correct import statement for useRouter
-import Barberlogo from "../../img/barberlogo.svg";
+import Barberlogo from "../../img/goldenlogo.svg";
 import CameraIcon from '../../icons/camera.svg';
 import HomeIcon from '../../icons/home.svg';
 import UserIcon from '../../icons/user.svg';

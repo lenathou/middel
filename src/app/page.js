@@ -15,7 +15,7 @@ export default function Home() {
       <section className="hero text-center mb-20">
       <div className="hero-container flex justify-center">
       <div className="hero-content w-3/4">
-        <h1 className="mb-4">Le Style au Service de votre Identité.</h1>
+        <h1 className="leading-tight text-5xl">Le Style au Service de votre Identité.</h1>
         <p className="mb-4">
           Découvrez une expérience de coiffure sur-mesure, où chaque coupe et chaque 
           style sont pensés pour refléter votre unicité. Spécialiste de la coiffure pour

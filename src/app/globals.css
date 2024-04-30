@@ -77,10 +77,12 @@
 
   h1 {
     font-size: 2.5rem; /* Ajuste selon tes besoins */
+    font-weight:700;
   }
   
   h2 {
     font-size: 2rem;
+    font-weight: 500;
   }
   
   h3 {
@@ -102,7 +104,9 @@ h6 {
     font-weight: bold;
 }
 
-  
+h1, h2, h3, h4 {
+  line-height: 1.5;
+}  
 
   /* Spécifique pour réduire le mouvement pour les utilisateurs qui préfèrent réduire le mouvement */
 
